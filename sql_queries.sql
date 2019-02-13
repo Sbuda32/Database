@@ -1,3 +1,4 @@
+#Creating Customer Table to hold customer data
 CREATE TABLE Customer( 
   CustomerID INT auto_increment, 
   FirstName VARCHAR(100) NOT NULL, 
