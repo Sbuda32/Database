@@ -122,3 +122,6 @@ SELECT DISTINCT * FROM Product;
 #Query for selecting maximum payment in the Payment Table
 SELECT MAX(Amount) AS Payment 
 FROM Payment;
+
+#Query to select all records in the Customer table sorted by the Country column
+SELECT * FROM Customer ORDER BY Country;
