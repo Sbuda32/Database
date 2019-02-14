@@ -115,3 +115,6 @@ WHERE
 #Deleting a customer with CustomerID 2 in the Customer Table
 DELETE FROM Customer 
 WHERE CustomerID=2;
+
+#Selecting all the unique values from Product Table
+SELECT DISTINCT * FROM Product;
