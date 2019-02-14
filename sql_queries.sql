@@ -43,3 +43,11 @@ CREATE TABLE Payment(
   ON DELETE CASCADE 
   ON UPDATE CASCADE
 );
+
+#Creating a Product to hold product data
+CREATE TABLE Product( 
+  ProductID INT auto_increment PRIMARY KEY, 
+  ProductName VARCHAR(100) NOT NULL, 
+  Description TEXT, 
+  BuyPrice DECIMAL(9,2)
+);
