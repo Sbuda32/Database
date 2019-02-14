@@ -71,3 +71,11 @@ INSERT INTO Employee
   VALUES(2, 'Lesly', 'Cronje', 'LesC@gmail.com', 'Clerk');
 INSERT INTO Employee 
   VALUES(3, 'Gideon', 'Maduku', 'Gm@gmail.com', 'Accountant');
+  
+#Inserting records for orders in the Orders Table
+INSERT INTO Orders 
+  VALUES(1, '2018-09-01', '2018-09-05', '2018-09-02', 'Not Shipped');
+INSERT INTO Orders 
+  VALUES(2, '2018-09-01', '2018-09-04', '2018-09-03', 'Shipped');
+INSERT INTO Orders 
+  VALUES(3, '2018-09-01', '2018-09-03', '2018-09-02', 'Not Shipped');
