@@ -93,3 +93,6 @@ INSERT INTO Product
   VALUES(2, 'Classic Car', 'Turnable front wheels, steering function', 550.75);
  INSERT INTO Product 
   VALUES(3, 'Sports car', 'Turnable front wheels, steering function', 700.60);
+
+#Query to select all the records on the Customer table
+SELECT * FROM Customer;
