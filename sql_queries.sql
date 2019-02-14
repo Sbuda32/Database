@@ -63,3 +63,11 @@ INSERT INTO Customer
   VALUES (4, 'Charl', 'Muller', 'Male', '290A Dorset Ecke', +448568725, 'Charl.muller@yahoo.com', 'Berlin', 'Germany');
 INSERT INTO Customer 
   VALUES (5, 'Julia', 'Stein', 'Female', '2 Wernerring', +448672445, 'Js234@yahoo.com', 'Frankfurt', 'Germany');
+
+#Inserting employees records to Employee Table
+INSERT INTO Employee 
+  VALUES(1, 'Kani', 'Matthew', 'Kmat@gmail.com', 'Manager');
+INSERT INTO Employee 
+  VALUES(2, 'Lesly', 'Cronje', 'LesC@gmail.com', 'Clerk');
+INSERT INTO Employee 
+  VALUES(3, 'Gideon', 'Maduku', 'Gm@gmail.com', 'Accountant');
