@@ -51,3 +51,15 @@ CREATE TABLE Product(
   Description TEXT, 
   BuyPrice DECIMAL(9,2)
 );
+
+#Inserting customer records to Customer Table
+INSERT INTO Customer 
+  VALUES (1, 'John', 'Hibert', 'Male', '284 chaucer st', 084789657, 'john@gmail.com', 'Johannesburg', 'South Africa');
+INSERT INTO Customer 
+  VALUES (2, 'Thando', 'Sithole', 'Female', '240 Sect 1', 0794445584, 'thando@gmail.com', 'Cape Town', 'South Africa');
+INSERT INTO Customer 
+  VALUES (3, 'Leon', 'Glen', 'Male', '81 Everton Rd,Gillits', 0820832830, 'Leon@gmail.com', 'Durban', 'South Africa');
+INSERT INTO Customer 
+  VALUES (4, 'Charl', 'Muller', 'Male', '290A Dorset Ecke', +448568725, 'Charl.muller@yahoo.com', 'Berlin', 'Germany');
+INSERT INTO Customer 
+  VALUES (5, 'Julia', 'Stein', 'Female', '2 Wernerring', +448672445, 'Js234@yahoo.com', 'Frankfurt', 'Germany');
