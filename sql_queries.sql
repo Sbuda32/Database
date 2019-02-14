@@ -111,3 +111,7 @@ SET
   LastName='Mabitso' 
 WHERE 
   CustomerID=1;
+
+#Deleting a customer with CustomerID 2 in the Customer Table
+DELETE FROM Customer 
+WHERE CustomerID=2;
