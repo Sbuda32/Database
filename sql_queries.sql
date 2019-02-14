@@ -125,3 +125,8 @@ FROM Payment;
 
 #Query to select all records in the Customer table sorted by the Country column
 SELECT * FROM Customer ORDER BY Country;
+
+#Query to select product prices that range between R100 and R600
+SELECT * FROM Product 
+WHERE BuyPrice 
+BETWEEN 100 AND 600;
