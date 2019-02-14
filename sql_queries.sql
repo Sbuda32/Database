@@ -99,3 +99,7 @@ SELECT * FROM Customer;
 
 #Query to select all the names of all the customers in the Customer table
 SELECT FirstName FROM Customer;
+
+#Querying the first name of a customer with CustomerID 1 in the Customer Table
+SELECT FirstName FROM Customer 
+WHERE CustomerID=1;
