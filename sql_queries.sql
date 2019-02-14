@@ -145,3 +145,7 @@ WHERE BuyPrice>500;
 
 #Query to return the sum of all the amounts in the Payment Table
 SELECT SUM(Amount) AS 'Total_Amount' FROM Payment;
+
+#Query to count the number of Orders shipped in the Orders Table
+SELECT COUNT(Status) AS Num_Of_Shipped_Orders 
+FROM Orders WHERE Status='Shipped';
