@@ -96,3 +96,6 @@ INSERT INTO Product
 
 #Query to select all the records on the Customer table
 SELECT * FROM Customer;
+
+#Query to select all the names of all the customers in the Customer table
+SELECT FirstName FROM Customer;
