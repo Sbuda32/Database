@@ -142,3 +142,6 @@ WHERE City='Cape Town' OR City='Johannesburg';
 #Query to select prices that are greater than R500 in the Product Table
 SELECT * FROM Product 
 WHERE BuyPrice>500;
+
+#Query to return the sum of all the amounts in the Payment Table
+SELECT SUM(Amount) AS 'Total_Amount' FROM Payment;
