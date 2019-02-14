@@ -79,3 +79,9 @@ INSERT INTO Orders
   VALUES(2, '2018-09-01', '2018-09-04', '2018-09-03', 'Shipped');
 INSERT INTO Orders 
   VALUES(3, '2018-09-01', '2018-09-03', '2018-09-02', 'Not Shipped');
+
+#Inserting payment records to Payment Table
+INSERT INTO Payment 
+  VALUES(1, 1, '2018-09-01', 100);
+INSERT INTO Payment 
+  VALUES(2, 2, '2018-09-01', 250.75);
