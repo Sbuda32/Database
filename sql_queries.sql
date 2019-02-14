@@ -103,3 +103,11 @@ SELECT FirstName FROM Customer;
 #Querying the first name of a customer with CustomerID 1 in the Customer Table
 SELECT FirstName FROM Customer 
 WHERE CustomerID=1;
+
+#Updating the Customer table by changing the name and surname of the customer with CustomerID 1 in the Customer Table
+UPDATE Customer 
+SET 
+  FirstName='Lerato', 
+  LastName='Mabitso' 
+WHERE 
+  CustomerID=1;
