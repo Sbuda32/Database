@@ -85,3 +85,11 @@ INSERT INTO Payment
   VALUES(1, 1, '2018-09-01', 100);
 INSERT INTO Payment 
   VALUES(2, 2, '2018-09-01', 250.75);
+
+#Inserting records for products in the Product Table
+INSERT INTO Product 
+  VALUES(1, 'Harley Davidson Chopper', 'This replica features working kickstand, front suspension, gear-shift lever', 150.75);
+INSERT INTO Product 
+  VALUES(2, 'Classic Car', 'Turnable front wheels, steering function', 550.75);
+ INSERT INTO Product 
+  VALUES(3, 'Sports car', 'Turnable front wheels, steering function', 700.60);
