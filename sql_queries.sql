@@ -138,3 +138,7 @@ WHERE Country='Germany' AND City='Berlin';
 #Query to select all customers from the city of Johannesburg or Cape Town in the Customer Table
 SELECT * FROM Customer 
 WHERE City='Cape Town' OR City='Johannesburg';
+
+#Query to select prices that are greater than R500 in the Product Table
+SELECT * FROM Product 
+WHERE BuyPrice>500;
