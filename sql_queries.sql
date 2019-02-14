@@ -21,3 +21,13 @@ CREATE TABLE Employee(
   JobTitle VARCHAR(100) NOT NULL, 
   PRIMARY KEY (EmployeeID)
 );
+
+#Creating Orders Table to hold data about orders that have to be shipped
+CREATE TABLE Orders( 
+  OrderID INT auto_increment, 
+  OrderDate DATE NOT NULL, 
+  RequiredDate DATE NOT NULL, 
+  ShippedDate DATE NOT NULL, 
+  Status VARCHAR(50) NOT NULL, 
+  PRIMARY KEY(OrderID)
+);
