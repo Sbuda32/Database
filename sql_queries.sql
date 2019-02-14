@@ -130,3 +130,7 @@ SELECT * FROM Customer ORDER BY Country;
 SELECT * FROM Product 
 WHERE BuyPrice 
 BETWEEN 100 AND 600;
+
+#Query to select all customers from Germeny in the city Berlin in the Customer Table
+SELECT * FROM Customer 
+WHERE Country='Germany' AND City='Berlin';
