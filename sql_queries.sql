@@ -118,3 +118,7 @@ WHERE CustomerID=2;
 
 #Selecting all the unique values from Product Table
 SELECT DISTINCT * FROM Product;
+
+#Query for selecting maximum payment in the Payment Table
+SELECT MAX(Amount) AS Payment 
+FROM Payment;
