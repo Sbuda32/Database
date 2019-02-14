@@ -31,3 +31,15 @@ CREATE TABLE Orders(
   Status VARCHAR(50) NOT NULL, 
   PRIMARY KEY(OrderID)
 );
+
+#Creating Payments TABLE to keep track of customers that have paid
+CREATE TABLE Payment( 
+  PaymentID INT auto_increment PRIMARY KEY, 
+  CustomerID INT NOT NULL, 
+  PaymentDate DATE, 
+  Amount DECIMAL(9,2) NOT NULL, 
+  FOREIGN KEY fk_customer_id(CustomerID) 
+  REFERENCES Customer(CustomerID) 
+  ON DELETE CASCADE 
+  ON UPDATE CASCADE
+);
