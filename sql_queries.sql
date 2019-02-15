@@ -153,3 +153,9 @@ FROM Orders WHERE Status='Shipped';
 #Query returning average price of all prodcts in Rands and Dollers in the Product Table
 SELECT CONCAT('$', FORMAT(AVG(BuyPrice * 12), 2)) AS Avg_Dollars, CONCAT('R', FORMAT(AVG(BuyPrice), 2)) AS Avg_Rands 
        FROM Product;
+
+ #Query to join to tables using the INNER JOIN, the results is two tables the Orders Table with information abput the 
+ #customers from the Customer Table
+ SELECT Orders.OrderID, Customer.FirstName, Customer.LastName, Customer.Email FROM Orders 
+ INNER JOIN Customer 
+ ON Orders.OrderID=Customer.CustomerID;
