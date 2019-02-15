@@ -149,3 +149,7 @@ SELECT SUM(Amount) AS 'Total_Amount' FROM Payment;
 #Query to count the number of Orders shipped in the Orders Table
 SELECT COUNT(Status) AS Num_Of_Shipped_Orders 
 FROM Orders WHERE Status='Shipped';
+
+#Query returning average price of all prodcts in Rands and Dollers in the Product Table
+SELECT CONCAT('$', FORMAT(AVG(BuyPrice * 12), 2)) AS Avg_Dollars, CONCAT('R', FORMAT(AVG(BuyPrice), 2)) AS Avg_Rands 
+       FROM Product;
