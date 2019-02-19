@@ -15,7 +15,7 @@ db.movie.insert( {
 
 ////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\/////\\\\////\\\\/////\\\\/////\\\\////\\\\
   #The code below is a script i used to create CRUD functions that manipulate MongoDB
-/\\\\////\\\\////\\\\////\\\\////\\\\////\\\\/////\\\\////\\\\/////\\\\/////\\\\\\\\////\\\\
+//\\\\////\\\\////\\\\////\\\\////\\\\////\\\\/////\\\\////\\\\/////\\\\/////\\\\\\\\////\\\\
 
 //Requring mongodb package and get the mongo client object
 const MongoClient = require('mongodb').MongoClient;
